@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="back" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="85.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ProfessorQuitCellController">
+   <children>
+      <Label fx:id="studentName" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="101.0" text="Label" />
+      <Label fx:id="studentNumber" layoutX="204.0" layoutY="14.0" prefHeight="17.0" prefWidth="101.0" text="Label" />
+      <Button fx:id="acceptButton" layoutX="89.0" layoutY="43.0" mnemonicParsing="false" onAction="#setAcceptButton" text="Accept" />
+      <Button fx:id="rejectButton" layoutX="178.0" layoutY="43.0" mnemonicParsing="false" onAction="#setRejectButton" text="Reject" />
+   </children>
+</AnchorPane>

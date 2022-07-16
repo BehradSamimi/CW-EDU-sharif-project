@@ -1,0 +1,661 @@
+{
+  "faculties": [
+    {
+      "courses": [
+        {
+          "studentsJSON": [
+            1,
+            2
+          ],
+          "professorJSON": 1,
+          "facultyJSON": 1,
+          "units": 4,
+          "number": 1,
+          "name": "AP",
+          "section": "bachelor",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "Saturday",
+            "time": "08:00"
+          },
+          "secondSession": {
+            "date": "Monday",
+            "time": "08:00"
+          },
+          "exam": {
+            "date": "1400/04/02",
+            "time": "09:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        },
+        {
+          "studentsJSON": [
+            1,
+            3
+          ],
+          "professorJSON": 2,
+          "facultyJSON": 1,
+          "units": 3,
+          "number": 2,
+          "name": "OS",
+          "section": "master",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "Saturday",
+            "time": "11:00"
+          },
+          "secondSession": {
+            "date": "Monday",
+            "time": "11:00"
+          },
+          "exam": {
+            "date": "1400/04/05",
+            "time": "-"
+          },
+          "isFinalized": false,
+          "isDone": false
+        }
+      ],
+      "professors": [
+        {
+          "viewTheme": 0,
+          "coursesJSON": [
+            1
+          ],
+          "personalInformation": {
+            "name": "artan fazlikhani",
+            "mail": "aryan@yahoo.com",
+            "phoneNumber": "09121111111"
+          },
+          "username": "aryan",
+          "password": "c3e5db4de3e2d675aed3343eaef3ac6483f56f3e",
+          "degree": "Professor",
+          "facultyJSON": 1,
+          "professorNumber": 1,
+          "isEducationalAssistant": false,
+          "isDean": true,
+          "isDeleted": false,
+          "roomID": 101,
+          "lastVisited": "2022-05-31T12:12:44.930069100",
+          "lastEnter": "2022-05-31T12:12:44.930069100"
+        },
+        {
+          "viewTheme": 0,
+          "coursesJSON": [
+            2
+          ],
+          "personalInformation": {
+            "name": "elahe zahiri",
+            "mail": "elahe@yahoo.com",
+            "phoneNumber": "09121111111"
+          },
+          "username": "elahe",
+          "password": "83db8f6299e0a303730b5f913b6a3df420ebc2c2",
+          "degree": "Professor",
+          "facultyJSON": 1,
+          "professorNumber": 2,
+          "isEducationalAssistant": true,
+          "isDean": false,
+          "isDeleted": false,
+          "roomID": 102,
+          "lastVisited": "2022-05-31T12:12:44.933061100",
+          "lastEnter": "2022-05-31T12:12:44.933061100"
+        }
+      ],
+      "students": [
+        {
+          "viewTheme": 0,
+          "degree": 0,
+          "coursesJSON": [
+            1,
+            2,
+            3,
+            9
+          ],
+          "facultyJSON": 1,
+          "supervisorJSON": 2,
+          "personalInformation": {
+            "fullName": "behrad samimi",
+            "mail": "samimi.behrad@yahoo.com",
+            "phoneNumber": "09122302160",
+            "entranceYear": "1400"
+          },
+          "username": "behrad",
+          "password": "e07d31b179d06d1469c504bcdb9251c3b75070ba",
+          "studentNumber": 1,
+          "quitrequest": false,
+          "isQuitrequestAccepted": 0,
+          "dormRequest": 0,
+          "lastVisited": "2022-05-31T12:12:44.936056600",
+          "lastEnter": "2022-05-31T12:12:44.936056600"
+        }
+      ],
+      "deanJSON": 1,
+      "educationalAssistantJSON": 2,
+      "name": "math",
+      "number": 1
+    },
+    {
+      "courses": [
+        {
+          "studentsJSON": [
+            1,
+            4
+          ],
+          "professorJSON": 4,
+          "facultyJSON": 2,
+          "units": 3,
+          "number": 3,
+          "name": "DS",
+          "section": "phd",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "Sunday",
+            "time": "10:00"
+          },
+          "secondSession": {
+            "date": "Tuesday",
+            "time": "10:00"
+          },
+          "exam": {
+            "date": "1400/05/07",
+            "time": "08:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        },
+        {
+          "studentsJSON": [
+            2,
+            3
+          ],
+          "professorJSON": 3,
+          "facultyJSON": 2,
+          "units": 2,
+          "number": 4,
+          "name": "logic circuits",
+          "section": "bachelor",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "Saturday",
+            "time": "10:00"
+          },
+          "secondSession": {
+            "date": "Monday",
+            "time": "10:00"
+          },
+          "exam": {
+            "date": "1400/03/02",
+            "time": "09:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        }
+      ],
+      "professors": [
+        {
+          "viewTheme": 0,
+          "coursesJSON": [
+            4
+          ],
+          "personalInformation": {
+            "name": "yasna aminayi",
+            "mail": "yasna@yahoo.com",
+            "phoneNumber": "09121111111"
+          },
+          "username": "yasna",
+          "password": "bd67c58a2559afc5eaacae546b57eb1b2bb9d5e0",
+          "degree": "AssociateProfessor",
+          "facultyJSON": 2,
+          "professorNumber": 3,
+          "isEducationalAssistant": false,
+          "isDean": true,
+          "isDeleted": false,
+          "roomID": 201,
+          "lastVisited": "2022-05-31T12:12:44.933061100",
+          "lastEnter": "2022-05-31T12:12:44.933061100"
+        },
+        {
+          "viewTheme": 0,
+          "coursesJSON": [
+            3
+          ],
+          "personalInformation": {
+            "name": "mehdi hajibeigi",
+            "mail": "mehdi@yahoo.com",
+            "phoneNumber": "09121111111"
+          },
+          "username": "mehdi",
+          "password": "d8932fd49bb05ff0670c3545d15547cb7baaf208",
+          "degree": "Professor",
+          "facultyJSON": 2,
+          "professorNumber": 4,
+          "isEducationalAssistant": false,
+          "isDean": false,
+          "isDeleted": false,
+          "roomID": 202,
+          "lastVisited": "2022-05-31T12:12:44.933061100",
+          "lastEnter": "2022-05-31T12:12:44.933061100"
+        },
+        {
+          "viewTheme": 0,
+          "coursesJSON": [
+            9,
+            10
+          ],
+          "personalInformation": {
+            "name": "abolfazl asadi",
+            "mail": "abolfazl@yahoo.com"
+          },
+          "username": "abolfazl",
+          "password": "1cd589c61d415f9c2ee45b94513071365153198b",
+          "degree": "Professor",
+          "facultyJSON": 5,
+          "professorNumber": 8,
+          "isEducationalAssistant": false,
+          "isDean": true,
+          "isDeleted": false,
+          "roomID": 501,
+          "lastVisited": "2022-05-31T12:12:44.933061100",
+          "lastEnter": "2022-05-31T12:12:44.933061100"
+        }
+      ],
+      "students": [
+        {
+          "viewTheme": 0,
+          "degree": 0,
+          "coursesJSON": [
+            1,
+            4
+          ],
+          "facultyJSON": 2,
+          "supervisorJSON": 3,
+          "personalInformation": {
+            "fullName": "mahsa sajadpor",
+            "mail": "mahsa@yahoo.com",
+            "phoneNumber": "09122222222",
+            "entranceYear": "1400"
+          },
+          "username": "mahsa",
+          "password": "2d399ede14c6fdbc9147bed5e8eb859b3630a953",
+          "studentNumber": 2,
+          "quitrequest": false,
+          "isQuitrequestAccepted": 0,
+          "dormRequest": 0,
+          "lastVisited": "2022-05-31T12:12:44.937051300",
+          "lastEnter": "2022-05-31T12:12:44.937051300"
+        }
+      ],
+      "deanJSON": 8,
+      "educationalAssistantJSON": 0,
+      "name": "computerEngineering",
+      "number": 2
+    },
+    {
+      "courses": [
+        {
+          "studentsJSON": [
+            3,
+            4
+          ],
+          "professorJSON": 5,
+          "facultyJSON": 3,
+          "units": 3,
+          "number": 5,
+          "name": "electronic",
+          "section": "bachelor",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "thursday",
+            "time": "10:00"
+          },
+          "secondSession": {
+            "date": "-",
+            "time": "-"
+          },
+          "exam": {
+            "date": "1400/04/11",
+            "time": "09:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        },
+        {
+          "studentsJSON": [
+            3,
+            5
+          ],
+          "professorJSON": 6,
+          "facultyJSON": 3,
+          "units": 3,
+          "number": 6,
+          "name": "magnetism",
+          "section": "master",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "thursday",
+            "time": "10:00"
+          },
+          "secondSession": {
+            "date": "wednesday",
+            "time": "10:00"
+          },
+          "exam": {
+            "date": "1400/04/15",
+            "time": "09:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        }
+      ],
+      "professors": [
+        {
+          "viewTheme": 0,
+          "coursesJSON": [
+            5
+          ],
+          "personalInformation": {
+            "name": "borna khodabande",
+            "mail": "borna@yahoo.com",
+            "phoneNumber": "09121111111"
+          },
+          "username": "borna",
+          "password": "2d8ed45d52e21cb9c295c6d892778bcc08753122",
+          "degree": "Professor",
+          "facultyJSON": 3,
+          "professorNumber": 5,
+          "isEducationalAssistant": false,
+          "isDean": true,
+          "isDeleted": false,
+          "roomID": 301,
+          "lastVisited": "2022-05-31T12:12:44.933061100",
+          "lastEnter": "2022-05-31T12:12:44.933061100"
+        },
+        {
+          "viewTheme": 0,
+          "coursesJSON": [
+            6
+          ],
+          "personalInformation": {
+            "name": "ashkan kooshki",
+            "mail": "ashkan@yahoo.com",
+            "phoneNumber": "09121111111"
+          },
+          "username": "ashkan",
+          "password": "b0200361573c8ae334945bb907ab63da29051804",
+          "degree": "AssistantProfessor",
+          "facultyJSON": 3,
+          "professorNumber": 6,
+          "isEducationalAssistant": true,
+          "isDean": false,
+          "isDeleted": false,
+          "roomID": 302,
+          "lastVisited": "2022-05-31T12:12:44.933061100",
+          "lastEnter": "2022-05-31T12:12:44.933061100"
+        }
+      ],
+      "students": [
+        {
+          "viewTheme": 0,
+          "degree": 1,
+          "coursesJSON": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "facultyJSON": 3,
+          "supervisorJSON": 6,
+          "personalInformation": {
+            "fullName": "sina A",
+            "mail": "sina.behrad@yahoo.com",
+            "phoneNumber": "09122302160"
+          },
+          "username": "sina",
+          "password": "4914a75a7572920a34bceece8e8e9496bda92330",
+          "studentNumber": 3,
+          "quitrequest": false,
+          "isQuitrequestAccepted": 0,
+          "dormRequest": 0,
+          "lastVisited": "2022-05-31T12:12:44.937051300",
+          "lastEnter": "2022-05-31T12:12:44.937051300"
+        },
+        {
+          "viewTheme": 0,
+          "degree": 1,
+          "coursesJSON": [
+            3,
+            5,
+            10
+          ],
+          "facultyJSON": 3,
+          "supervisorJSON": 5,
+          "personalInformation": {
+            "fullName": "kiana kazemi",
+            "mail": "kiana.behrad@yahoo.com",
+            "phoneNumber": "09122302160",
+            "entranceYear": "1400"
+          },
+          "username": "kiana",
+          "password": "703ddbc5fe426b4973c206f758719f6009b363c3",
+          "studentNumber": 4,
+          "quitrequest": false,
+          "isQuitrequestAccepted": 0,
+          "dormRequest": 0,
+          "lastVisited": "2022-05-31T12:12:44.938049200",
+          "lastEnter": "2022-05-31T12:12:44.938049200"
+        }
+      ],
+      "deanJSON": 5,
+      "educationalAssistantJSON": 6,
+      "name": "electricalEngineering",
+      "number": 3
+    },
+    {
+      "courses": [
+        {
+          "studentsJSON": [
+            6,
+            5
+          ],
+          "professorJSON": 7,
+          "facultyJSON": 4,
+          "units": 3,
+          "number": 7,
+          "name": "fizik3",
+          "section": "bachelor",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "thursday",
+            "time": "14:00"
+          },
+          "secondSession": {
+            "date": "wednesday",
+            "time": "14:00"
+          },
+          "exam": {
+            "date": "1400/04/17",
+            "time": "09:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        },
+        {
+          "studentsJSON": [
+            6,
+            5
+          ],
+          "professorJSON": 7,
+          "facultyJSON": 4,
+          "units": 3,
+          "number": 8,
+          "name": "fluid",
+          "section": "phd",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "thursday",
+            "time": "18:00"
+          },
+          "secondSession": {
+            "date": "wednesday",
+            "time": "18:00"
+          },
+          "exam": {
+            "date": "1400/04/17",
+            "time": "12:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        }
+      ],
+      "professors": [
+        {
+          "viewTheme": 0,
+          "coursesJSON": [
+            7,
+            8
+          ],
+          "personalInformation": {
+            "name": "taha jalali",
+            "mail": "taha@yahoo.com",
+            "phoneNumber": "09121111111"
+          },
+          "username": "taha",
+          "password": "41237a505d939ae273056ba68a8b2c8bfcdcf46b",
+          "degree": "AssociateProfessor",
+          "facultyJSON": 4,
+          "professorNumber": 7,
+          "isEducationalAssistant": false,
+          "isDean": true,
+          "isDeleted": false,
+          "roomID": 401,
+          "lastVisited": "2022-05-31T12:12:44.933061100",
+          "lastEnter": "2022-05-31T12:12:44.933061100"
+        }
+      ],
+      "students": [
+        {
+          "viewTheme": 0,
+          "degree": 2,
+          "coursesJSON": [
+            6,
+            7,
+            8
+          ],
+          "facultyJSON": 4,
+          "supervisorJSON": 7,
+          "personalInformation": {
+            "fullName": "farbod pakan",
+            "mail": "farbod@yahoo.com",
+            "phoneNumber": "09122302160",
+            "entranceYear": "1400"
+          },
+          "username": "farbod",
+          "password": "b169e13b696f23a3d719a051b3b17475df39aa1b",
+          "studentNumber": 5,
+          "quitrequest": false,
+          "isQuitrequestAccepted": 0,
+          "dormRequest": 0,
+          "lastVisited": "2022-05-31T12:12:44.938049200",
+          "lastEnter": "2022-05-31T12:12:44.938049200"
+        }
+      ],
+      "deanJSON": 7,
+      "educationalAssistantJSON": 0,
+      "name": "mechanicalEngineering",
+      "number": 4
+    },
+    {
+      "courses": [
+        {
+          "studentsJSON": [
+            6,
+            1
+          ],
+          "professorJSON": 8,
+          "facultyJSON": 5,
+          "units": 2,
+          "number": 9,
+          "name": "technical?Analysis",
+          "section": "phd",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "monday",
+            "time": "18:00"
+          },
+          "secondSession": {
+            "date": "tuesday",
+            "time": "18:00"
+          },
+          "exam": {
+            "date": "1400/04/17",
+            "time": "12:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        },
+        {
+          "studentsJSON": [
+            6,
+            4
+          ],
+          "professorJSON": 8,
+          "facultyJSON": 5,
+          "units": 3,
+          "number": 10,
+          "name": "basicEconomy",
+          "section": "bachelor",
+          "isDeleted": false,
+          "firstSession": {
+            "date": "saturday",
+            "time": "18:00"
+          },
+          "secondSession": {
+            "date": "sunday",
+            "time": "18:00"
+          },
+          "exam": {
+            "date": "1400/03/17",
+            "time": "08:00"
+          },
+          "isFinalized": false,
+          "isDone": false
+        }
+      ],
+      "professors": [],
+      "students": [
+        {
+          "viewTheme": 0,
+          "degree": 2,
+          "coursesJSON": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "facultyJSON": 5,
+          "supervisorJSON": 8,
+          "personalInformation": {
+            "fullName": "erfan tamimi",
+            "mail": "erfan@yahoo.com",
+            "phoneNumber": "09122302160",
+            "entranceYear": "1400"
+          },
+          "username": "erfan",
+          "password": "18993ec24a37630135928b90cf3937a26c4da145",
+          "studentNumber": 6,
+          "quitrequest": false,
+          "isQuitrequestAccepted": 0,
+          "dormRequest": 0,
+          "lastVisited": "2022-05-31T12:12:44.938049200",
+          "lastEnter": "2022-05-31T12:12:44.938049200"
+        }
+      ],
+      "deanJSON": 0,
+      "educationalAssistantJSON": 0,
+      "name": "economy",
+      "number": 5
+    }
+  ]
+}

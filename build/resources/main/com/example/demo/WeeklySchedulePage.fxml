@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.WeeklySchedulePageController">
+   <children>
+      <Button fx:id="SaturdayButton" layoutX="96.0" layoutY="53.0" mnemonicParsing="false" onAction="#setSaturdayButton" text="Saturday" />
+      <Button fx:id="SundayButton" layoutX="158.0" layoutY="53.0" mnemonicParsing="false" onAction="#setSundayButton" text="Sunday" />
+      <Button fx:id="MondayButton" layoutX="213.0" layoutY="53.0" mnemonicParsing="false" onAction="#setMondayButton" text="Monday" />
+      <Button fx:id="TuesdayButton" layoutX="273.0" layoutY="53.0" mnemonicParsing="false" onAction="#setTuesdayButton" text="Tuesday" />
+      <Button fx:id="WednesdayButton" layoutX="333.0" layoutY="53.0" mnemonicParsing="false" onAction="#setWednesdayButton" text="Wednesday" />
+      <Button fx:id="ThursdayButton" layoutX="410.0" layoutY="53.0" mnemonicParsing="false" onAction="#setThursdayButton" text="Thursday" />
+      <Button fx:id="FridayButton" layoutX="475.0" layoutY="53.0" mnemonicParsing="false" onAction="#setFridayButton" text="Friday" />
+      <ListView fx:id="scheduleListView" layoutX="200.0" layoutY="119.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="mainPageButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnToMainPage" text="mainPage" />
+   </children>
+</AnchorPane>

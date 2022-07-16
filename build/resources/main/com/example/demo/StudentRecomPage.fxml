@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.StudentRecomPageController">
+   <children>
+      <TextField fx:id="professorNumber" alignment="CENTER" layoutX="31.0" layoutY="164.0" prefHeight="25.0" prefWidth="105.0" promptText="شماره استاد" />
+      <Button fx:id="recordButton" layoutX="50.0" layoutY="207.0" mnemonicParsing="false" onAction="#recordRecom" prefHeight="25.0" prefWidth="67.0" text="ثبت درخواست">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <ListView fx:id="recomAnswerListView" layoutX="184.0" layoutY="20.0" prefHeight="360.0" prefWidth="380.0" />
+      <Button fx:id="mainPageButton" layoutX="5.0" layoutY="7.0" mnemonicParsing="false" onAction="#returnToMainPage" text="mainPage" />
+   </children>
+</AnchorPane>

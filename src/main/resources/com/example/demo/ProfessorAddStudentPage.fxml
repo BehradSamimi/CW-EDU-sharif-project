@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ProfessorAddStudentPageController">
+   <children>
+      <TextField fx:id="userName" layoutX="226.0" layoutY="82.0" promptText="UserName" />
+      <TextField fx:id="passWord" layoutX="225.0" layoutY="122.0" promptText="PassWord" />
+      <TextField fx:id="fullName" layoutX="225.0" layoutY="161.0" promptText="Full Name" />
+      <TextField fx:id="major" layoutX="225.0" layoutY="200.0" promptText="Major" />
+      <TextField fx:id="superVisorNumber" layoutX="225.0" layoutY="239.0" promptText="SuperVisor ID number" />
+      <Button fx:id="createButton" layoutX="256.0" layoutY="309.0" mnemonicParsing="false" onAction="#setCreateButton" text="create Account" />
+      <Button fx:id="mainPageButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnToMainPage" text="mainPage" />
+   </children>
+</AnchorPane>

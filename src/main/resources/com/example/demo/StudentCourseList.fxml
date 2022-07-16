@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.StudentCourseListController">
+   <children>
+      <TextField fx:id="facultyTextbox" layoutX="68.0" layoutY="78.0" prefHeight="22.0" prefWidth="97.0" promptText="Faculty" />
+      <TextField fx:id="sectionTextbox" layoutX="68.0" layoutY="161.0" prefHeight="22.0" prefWidth="97.0" promptText="Course Section" />
+      <TextField fx:id="numberTextbox" layoutX="68.0" layoutY="119.0" prefHeight="22.0" prefWidth="97.0" promptText="Course Number" />
+      <ListView fx:id="courseListView" fixedCellSize="90.0" layoutX="260.0" layoutY="23.0" prefHeight="360.0" prefWidth="280.0" />
+      <Button fx:id="filterButton" layoutX="91.0" layoutY="212.0" mnemonicParsing="false" onAction="#Filter" text="Filter" />
+      <Button fx:id="mainPageButton" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#returnToMainPage" text="MainPage" />
+   </children>
+</AnchorPane>

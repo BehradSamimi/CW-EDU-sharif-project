@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.StudentEducationalStateController">
+   <children>
+      <ListView fx:id="finalMark" layoutX="333.0" layoutY="79.0" prefHeight="242.0" prefWidth="213.0" />
+      <Label layoutX="171.0" layoutY="214.0" prefHeight="23.0" prefWidth="57.0" text="معدل کل :" />
+      <Label layoutX="136.0" layoutY="154.0" prefHeight="23.0" prefWidth="127.0" text="تعداد واحد گذرانده شده :" />
+      <Label fx:id="unitsPassed" layoutX="55.0" layoutY="157.0" prefHeight="17.0" prefWidth="45.0" text="Label" />
+      <Label fx:id="gradePointAverage" layoutX="55.0" layoutY="217.0" prefHeight="17.0" prefWidth="45.0" text="Label" />
+      <Button fx:id="mainPageButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnToMainPage" text="mainPage" />
+   </children>
+</AnchorPane>

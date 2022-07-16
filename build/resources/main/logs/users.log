@@ -1,0 +1,10 @@
+2022-05-31 12:07:34.396 [main] INFO  com.example.demo.logIn - application Start
+2022-05-31 12:07:34.418 [JavaFX Application Thread] INFO  com.example.demo.logIn - logging page Loaded
+2022-05-31 12:07:34.868 [JavaFX Application Thread] INFO  com.example.demo.logIn - new captcha set
+2022-05-31 12:07:47.939 [JavaFX Application Thread] INFO  com.example.demo.logIn - main page of Student : behrad loaded
+2022-05-31 12:07:53.170 [JavaFX Application Thread] INFO  com.example.demo.logIn - logging page Loaded
+2022-05-31 12:07:53.349 [JavaFX Application Thread] INFO  com.example.demo.logIn - new captcha set
+2022-05-31 12:08:00.378 [JavaFX Application Thread] INFO  com.example.demo.logIn - main page of Student : behrad loaded
+2022-05-31 12:08:07.923 [JavaFX Application Thread] INFO  com.example.demo.logIn - logging page Loaded
+2022-05-31 12:08:08.067 [JavaFX Application Thread] INFO  com.example.demo.logIn - new captcha set
+2022-05-31 12:09:02.690 [JavaFX Application Thread] INFO  com.example.demo.logIn - change password page loaded

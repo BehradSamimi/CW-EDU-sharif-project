@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="back" prefHeight="180.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.StudentTemporaryMarkCellController">
+   <children>
+      <Label fx:id="courseName" layoutX="126.0" layoutY="14.0" prefHeight="21.0" prefWidth="107.0" text="Label" />
+      <Label fx:id="courseProfessor" layoutX="239.0" layoutY="35.0" prefHeight="21.0" prefWidth="107.0" text="Label" />
+      <Label fx:id="courseMark" layoutX="14.0" layoutY="35.0" prefHeight="21.0" prefWidth="107.0" text="Label" />
+      <Label layoutX="272.0" layoutY="68.0" prefHeight="17.0" prefWidth="73.0" text="متن اعتراض :" />
+      <TextField fx:id="objectionText" layoutX="192.0" layoutY="90.0" prefHeight="88.0" prefWidth="153.0" />
+      <Label fx:id="objectionAnswer" layoutX="20.0" layoutY="90.0" prefHeight="88.0" prefWidth="153.0" text="Label" />
+      <Button fx:id="objectionRecordButton" layoutX="192.0" layoutY="64.0" mnemonicParsing="false" onAction="#recordObjection" prefHeight="25.0" prefWidth="57.0" text="ثبت اعتراض">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Label layoutX="106.0" layoutY="68.0" prefHeight="17.0" prefWidth="73.0" text="جواب اعتراض :" />
+   </children>
+</AnchorPane>

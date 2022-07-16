@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="back" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ProfessorRecomCellController">
+   <children>
+      <Label fx:id="studentName" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="94.0" text="Label" />
+      <Label fx:id="studentNumber" layoutX="212.0" layoutY="14.0" prefHeight="17.0" prefWidth="94.0" text="Label" />
+      <TextArea fx:id="answerTextArea" layoutX="31.0" layoutY="38.0" prefHeight="107.0" prefWidth="245.0" />
+      <Button fx:id="recordButton" layoutX="128.0" layoutY="146.0" mnemonicParsing="false" onAction="#setRecordButton" prefHeight="17.0" prefWidth="52.0" text="ثبت">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

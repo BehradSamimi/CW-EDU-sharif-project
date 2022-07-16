@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ProfessorMainPageController">
+   <children>
+      <Pane fx:id="barPane" prefHeight="101.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="photo" fitHeight="62.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="localTime" layoutX="14.0" layoutY="76.0" prefHeight="21.0" prefWidth="87.0" text="localTime">
+               <font>
+                  <Font size="7.0" />
+               </font>
+            </Label>
+            <Label fx:id="name" layoutX="228.0" layoutY="29.0" prefHeight="21.0" prefWidth="144.0" text="name" />
+            <Label fx:id="mail" layoutX="228.0" layoutY="57.0" prefHeight="21.0" prefWidth="144.0" text="e-mail" textAlignment="CENTER">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Button fx:id="exit" layoutX="534.0" layoutY="15.0" mnemonicParsing="false" onAction="#exit" text="خروج" />
+            <Label fx:id="lastEnter" layoutX="481.0" layoutY="57.0" prefHeight="21.0" prefWidth="107.0" text="last Enter :" />
+         </children>
+      </Pane>
+      <MenuButton fx:id="first" layoutX="495.0" layoutY="101.0" mnemonicParsing="false" text="امور ثبت نام" textAlignment="RIGHT">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#goToProfessorList" text="لیست اساتید" />
+            <MenuItem fx:id="courseList" mnemonicParsing="false" onAction="#goToCourseList" text="لیست دروس" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="second" layoutX="388.0" layoutY="101.0" mnemonicParsing="false" text="خدمات آموزشی" textAlignment="RIGHT">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#goToWeeklySchedulePage" text="برنامه هفتگی" />
+            <MenuItem mnemonicParsing="false" onAction="#goToExamListPage" text="لیست امتحانات" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#goToRecomPageList" text="بررسی درخواست توصیه نامه" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="third" layoutX="300.0" layoutY="101.0" mnemonicParsing="false" text="امور کارنامه" textAlignment="RIGHT">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#goToTemporaryMarkPage" text="نمرات موقت" />
+         </items>
+      </MenuButton>
+      <Button layoutX="205.0" layoutY="101.0" mnemonicParsing="false" onAction="#goToProfileView" text="مشاهده پروفایل" />
+   </children>
+</AnchorPane>
